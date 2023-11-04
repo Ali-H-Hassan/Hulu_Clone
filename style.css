@@ -1,0 +1,99 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Graphik Web', 'Graphik', sans-serif;
+}
+
+.full-screen {
+    width: 100%;
+    height: 100vh;
+}
+
+.welcome-page {
+    background: url('Assets/main.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.login-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #a8afbd;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.login-button:hover {
+    border: 1px solid #fff;
+    color: white;
+}
+
+.payment-plans-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.payment-plan {
+    background: transparent;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.plan-title {
+    font-size: 12px;
+    margin: 0;
+    color: #00ED82;
+}
+
+.payment-plan img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.plan-text {
+    font-weight: bold;
+    font-size: 23px;
+    margin: 10px 0;
+    color: white;
+}
+
+.plan-button {
+    background-color: #00ED82;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.plan-button:hover {
+    background-color: #00ED82;
+}
