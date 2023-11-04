@@ -1,4 +1,5 @@
-html,body {
+html,
+body {
     margin: 0;
     padding: 0;
 }
@@ -40,11 +41,13 @@ html,body {
     font-size: 16px;
     text-decoration: none;
     margin-right: 50px;
+    border-radius: 5px;
 }
 
 .login-button:hover {
-    border: 1px solid #fff;
     color: white;
+    background-color: #a8afbd;
+
 }
 
 .payment-plans-container {
@@ -96,4 +99,186 @@ html,body {
 
 .plan-button:hover {
     background-color: #00ED82;
+}
+
+.build {
+    height: 35%;
+    background-color: #00ED82;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-content {
+    text-align: center;
+    color: white;
+}
+
+.section-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 70px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.section-button:hover {
+    background-color: #a8afbd;
+    color: black;
+    border-color: #a8afbd;
+}
+
+.category-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.category-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30%;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    height: 400px;
+    transition: border 0.3s;
+}
+
+.category1 {
+    background-image: url("Assets/family-guy.png");
+}
+
+.category2 {
+    background-image: url("Assets/prey.jpeg");
+}
+
+.category3 {
+    background-image: url("Assets/only-murders-in-the-building.png");
+}
+
+.category4 {
+    background-image: url("Assets/the-sopranos.png");
+}
+
+.top-texts {
+    color: white;
+    text-align: center;
+    /* Center the text over the columns */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.categories {
+    background-color: black;
+    /* Set the background of the whole section to black */
+    height: 130%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.included {
+    color: #00ED82;
+    font-size: 15px;
+}
+
+.tv-love {
+    font-size: 50px;
+}
+
+.watch-seasons {
+    max-width: 700px;
+    font-size: 15px;
+    color: #a8afbd;
+}
+
+.category-section:hover {
+    border: 4px solid #a8afbd;
+}
+
+.category-section p {
+    margin-top: 0;
+}
+
+.category-section h3 {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.section-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.category-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    margin-top: 10px;
+}
+
+.section-text-1 {
+    color: #00ED82;
+    font-size: 14px;
+}
+
+.section-text-2 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.section-text-3 {
+    max-width: 700px;
+    font-size: 18px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.category-button {
+    border-radius: 5px;
+    background-color: #00ED82;
+    color: #000;
+    border: none;
+    padding: 15px;
+}
+
+.section-text-4 {
+    color: #a8afbd;
+    font-size: 12px;
+    max-width: 900px;
+}
+
+.section-text-5 {
+    color: #a8afbd;
+    text-decoration: underline;
+}
+
+.section-text-5:hover {
+    cursor: pointer;
 }
