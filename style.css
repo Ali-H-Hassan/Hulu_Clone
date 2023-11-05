@@ -103,7 +103,7 @@ body {
 
 .build {
     height: 35%;
-    background-color: #00ED82;
+    background: linear-gradient(180deg, #29A869 0.66%, #16181D 99.34%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -281,4 +281,62 @@ body {
 
 .section-text-5:hover {
     cursor: pointer;
+}
+
+.sport-section {
+    background-image: url("Assets/sports-bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-right: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20%;
+    box-sizing: border-box;
+}
+
+.sport-title {
+    text-align: left;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.sport-description1,
+.sport-description2 {
+    text-align: left;
+    color: white;
+    max-width: 400px;
+    font-size: 16px;
+}
+
+.explore-sports {
+    text-align: left;
+    color: white;
+    clear: both;
+    font-size: 10px;
+    color: hsla(0, 0%, 100%, .6);
+}
+
+.sport-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sport-image img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 10px;
+}
+
+.sport-description1 {
+    font-size: 48px;
 }
