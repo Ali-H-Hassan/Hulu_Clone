@@ -465,3 +465,55 @@ body {
 .custom-table tr td {
     height: 60px;
 }
+
+.footer {
+    background-color: rgb(213, 210, 210);
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-divider {
+    border: 1px solid #555;
+    margin: 0 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.additional-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.additional-links li {
+    margin: 0 10px;
+    display: inline;
+}
+
+.browse ul {
+    columns: 3;
+
+}
